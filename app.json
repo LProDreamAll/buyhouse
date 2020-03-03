@@ -1,12 +1,13 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/my/my"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "购房",
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
@@ -14,17 +15,21 @@
   "tabBar": {
     "list": [
       {
-        "selectedIconPath": "/images/tab/classic@highlight.png",
-        "pagePath": "pages/classic/classic",
+        "pagePath": "pages/home/home",
         "text": "首页",
-        "iconPath": "/images/tab/classic.png"
+        "iconPath": "/images/tab/home.png",
+        "selectedIconPath": "/images/tab/home@selected.png"
       },
       {
         "pagePath": "pages/my/my",
-        "selectedIconPath": "/images/tab/my@highlight.png",
+        "text": "我的",
         "iconPath": "/images/tab/my.png",
-        "text": "我的"
+        "selectedIconPath": "/images/tab/my@selected.png"
       }
-    ]
+    ],
+    "borderStyle": "white",
+    "selectedColor": "#AB956D",
+    "color": "#989898",
+    "backgroundColor": "#F5F5F5"
   }
 }
