@@ -1,2 +1,31 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<l-loadmore show
+            type="{{loadingType}}">
+  <view slot="content" class="container">
+    <view class="header">
+      <view class='box'>
+        <image src="/images/icon/search.png" />
+        <text>请输入楼盘名/城市名</text>
+      </view>
+    </view>
+    <swiper class="swiper"
+            indicator-dots
+            indicator-active-color="#157658"
+            autoplay
+            circular>
+      <swiper-item>
+        <image src="/images/common/1.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/common/2.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/common/3.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/common/4.jpg"></image>
+      </swiper-item>
+    </swiper>
+    <s-category-grid grid="{{grid}}"></s-category-grid>
+  </view>
+</l-loadmore>
