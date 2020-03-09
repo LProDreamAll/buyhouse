@@ -15,7 +15,7 @@
     </l-gird-item>
     <l-gird-item slot="2" key="2">
       <view class="grid-item">
-        <l-icon name="add" size="60"/>
+        <l-icon name="address" size="60" color="#34BFA3"/>
         <text class="text">地图找房</text>
       </view>
     </l-gird-item>
