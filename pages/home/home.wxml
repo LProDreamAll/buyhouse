@@ -27,5 +27,253 @@
       </swiper-item>
     </swiper>
     <s-category-grid grid="{{grid}}"></s-category-grid>
+    <view class="hotProperty">
+       <view class="top">热门楼盘</view>
+       <view class="item">
+         <view class="hotProperty-item">
+           <view class="img">
+             <image src="/images/common/1.jpg"></image>
+           </view>
+           <view class="information">
+             <view class="title">翡翠龙庭</view>
+             <view class="label1">
+               <span>温泉乡</span>
+               <span>养心地</span>
+               <span>度假村</span>
+             </view>
+             <view class="label2">
+               <span>温泉</span>
+               <span>不限购</span>
+               <span>旅居胜地</span>
+             </view>
+             <view class="phone">
+               <image src="/images/icon/phone.png"></image>
+               <span>400-0882666</span>
+             </view>
+           </view>
+         </view>
+         <view class="hotProperty-item">
+           <view class="img">
+             <image src="/images/common/1.jpg"></image>
+           </view>
+           <view class="information">
+             <view class="title">翡翠龙庭</view>
+             <view class="label1">
+               <span>温泉乡</span>
+               <span>养心地</span>
+               <span>度假村</span>
+             </view>
+             <view class="label2">
+               <span>温泉</span>
+               <span>不限购</span>
+               <span>旅居胜地</span>
+             </view>
+             <view class="phone">
+               <image src="/images/icon/phone.png"></image>
+               <span>400-0882666</span>
+             </view>
+           </view>
+         </view>
+         <view class="hotProperty-item">
+           <view class="img">
+             <image src="/images/common/1.jpg"></image>
+           </view>
+           <view class="information">
+             <view class="title">翡翠龙庭</view>
+             <view class="label1">
+               <span>温泉乡</span>
+               <span>养心地</span>
+               <span>度假村</span>
+             </view>
+             <view class="label2">
+               <span>温泉</span>
+               <span>不限购</span>
+               <span>旅居胜地</span>
+             </view>
+             <view class="phone">
+               <image src="/images/icon/phone.png"></image>
+               <span>400-0882666</span>
+             </view>
+           </view>
+         </view>
+         <view class="hotProperty-item">
+           <view class="img">
+             <image src="/images/common/1.jpg"></image>
+           </view>
+           <view class="information">
+             <view class="title">翡翠龙庭</view>
+             <view class="label1">
+               <span>温泉乡</span>
+               <span>养心地</span>
+               <span>度假村</span>
+             </view>
+             <view class="label2">
+               <span>温泉</span>
+               <span>不限购</span>
+               <span>旅居胜地</span>
+             </view>
+             <view class="phone">
+               <image src="/images/icon/phone.png"></image>
+               <span>400-0882666</span>
+             </view>
+           </view>
+         </view>
+         <view class="hotProperty-item">
+           <view class="img">
+             <image src="/images/common/1.jpg"></image>
+           </view>
+           <view class="information">
+             <view class="title">翡翠龙庭</view>
+             <view class="label1">
+               <span>温泉乡</span>
+               <span>养心地</span>
+               <span>度假村</span>
+             </view>
+             <view class="label2">
+               <span>温泉</span>
+               <span>不限购</span>
+               <span>旅居胜地</span>
+             </view>
+             <view class="phone">
+               <image src="/images/icon/phone.png"></image>
+               <span>400-0882666</span>
+             </view>
+           </view>
+         </view>
+         <view class="hotProperty-item">
+           <view class="img">
+             <image src="/images/common/1.jpg"></image>
+           </view>
+           <view class="information">
+             <view class="title">翡翠龙庭</view>
+             <view class="label1">
+               <span>温泉乡</span>
+               <span>养心地</span>
+               <span>度假村</span>
+             </view>
+             <view class="label2">
+               <span>温泉</span>
+               <span>不限购</span>
+               <span>旅居胜地</span>
+             </view>
+             <view class="phone">
+               <image src="/images/icon/phone.png"></image>
+               <span>400-0882666</span>
+             </view>
+           </view>
+         </view>
+         <view class="hotProperty-item">
+           <view class="img">
+             <image src="/images/common/1.jpg"></image>
+           </view>
+           <view class="information">
+             <view class="title">翡翠龙庭</view>
+             <view class="label1">
+               <span>温泉乡</span>
+               <span>养心地</span>
+               <span>度假村</span>
+             </view>
+             <view class="label2">
+               <span>温泉</span>
+               <span>不限购</span>
+               <span>旅居胜地</span>
+             </view>
+             <view class="phone">
+               <image src="/images/icon/phone.png"></image>
+               <span>400-0882666</span>
+             </view>
+           </view>
+         </view>
+         <view class="hotProperty-item">
+           <view class="img">
+             <image src="/images/common/1.jpg"></image>
+           </view>
+           <view class="information">
+             <view class="title">翡翠龙庭</view>
+             <view class="label1">
+               <span>温泉乡</span>
+               <span>养心地</span>
+               <span>度假村</span>
+             </view>
+             <view class="label2">
+               <span>温泉</span>
+               <span>不限购</span>
+               <span>旅居胜地</span>
+             </view>
+             <view class="phone">
+               <image src="/images/icon/phone.png"></image>
+               <span>400-0882666</span>
+             </view>
+           </view>
+         </view>
+         <view class="hotProperty-item">
+           <view class="img">
+             <image src="/images/common/1.jpg"></image>
+           </view>
+           <view class="information">
+             <view class="title">翡翠龙庭</view>
+             <view class="label1">
+               <span>温泉乡</span>
+               <span>养心地</span>
+               <span>度假村</span>
+             </view>
+             <view class="label2">
+               <span>温泉</span>
+               <span>不限购</span>
+               <span>旅居胜地</span>
+             </view>
+             <view class="phone">
+               <image src="/images/icon/phone.png"></image>
+               <span>400-0882666</span>
+             </view>
+           </view>
+         </view>
+         <view class="hotProperty-item">
+           <view class="img">
+             <image src="/images/common/1.jpg"></image>
+           </view>
+           <view class="information">
+             <view class="title">翡翠龙庭</view>
+             <view class="label1">
+               <span>温泉乡</span>
+               <span>养心地</span>
+               <span>度假村</span>
+             </view>
+             <view class="label2">
+               <span>温泉</span>
+               <span>不限购</span>
+               <span>旅居胜地</span>
+             </view>
+             <view class="phone">
+               <image src="/images/icon/phone.png"></image>
+               <span>400-0882666</span>
+             </view>
+           </view>
+         </view>
+         <view class="hotProperty-item">
+           <view class="img">
+             <image src="/images/common/1.jpg"></image>
+           </view>
+           <view class="information">
+             <view class="title">翡翠龙庭</view>
+             <view class="label1">
+               <span>温泉乡</span>
+               <span>养心地</span>
+               <span>度假村</span>
+             </view>
+             <view class="label2">
+               <span>温泉</span>
+               <span>不限购</span>
+               <span>旅居胜地</span>
+             </view>
+             <view class="phone">
+               <image src="/images/icon/phone.png"></image>
+               <span>400-0882666</span>
+             </view>
+           </view>
+         </view>
+       </view>
+
+    </view>
   </view>
 </l-loadmore>
