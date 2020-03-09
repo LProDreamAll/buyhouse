@@ -1,25 +1,15 @@
 <!--components/category-grid/index.wxml-->
 <view class="container">
-<!--  <l-gird l-class="inner-container">-->
-<!--    <block wx:for="{{grid}}" wx:key="index">-->
-<!--      <l-gird-item slot="{{index}}" key="{{index}}">-->
-<!--        <view class="grid-item">-->
-<!--          <image class="img" src="{{item.img}}"></image>-->
-<!--          <text class="text">{{item.title}}</text>-->
-<!--        </view>-->
-<!--      </l-gird-item>-->
-<!--    </block>-->
-<!--  </l-gird>-->
   <l-gird l-class="inner-container">
     <l-gird-item slot="0" key="0">
       <view class="grid-item">
-        <l-icon name="add" size="60"/>
+        <l-icon name="order" size="60"/>
         <text class="text">网上认购</text>
       </view>
     </l-gird-item>
     <l-gird-item slot="1" key="1">
       <view class="grid-item">
-        <l-icon name="add" size="60"/>
+        <l-icon name="order" size="60" color="#F4516C"/>
         <text class="text">预约看房</text>
       </view>
     </l-gird-item>

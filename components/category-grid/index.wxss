@@ -1,7 +1,7 @@
 /* components/category-grid/index.wxss */
 .container{
   width: 100%;
-  height: 320rpx;
+  height: 170rpx;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -10,8 +10,8 @@
 }
 
 .inner-container{
-  width: 730rpx;
-  height: 300rpx;
+  width: 750rpx;
+  height: 160rpx;
   border: 1px dashed #DCEBE6;
 }
 
