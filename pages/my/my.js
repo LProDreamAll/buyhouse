@@ -5,16 +5,24 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    userInfo: {},
+    hasUserInfo: false
   },
-
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  onLoad: function () {
 
   },
-
+  onGetUserInfo(event) {
+    const userInfo = event.detail.userInfo
+    if (userInfo) {
+      this.setData({
+        userInfo,
+        hasUserInfo: true
+      })
+    }
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
