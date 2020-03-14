@@ -31,4 +31,23 @@ page{
 .information1{
   margin-top: 20rpx;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.reservation{
+  display: flex;
+  flex-direction: column;
+}
+.reservation-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10rpx;
+}
+.item-left{
+  display: flex;
+}
+.item-left span{
+  margin-left: 20rpx;
 }

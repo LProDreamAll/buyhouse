@@ -11,7 +11,64 @@
   </view>
   <view class="information1">
     <view class="reservation">
-
+      <view class="reservation-item">
+        <view class="item-left">
+          <l-icon name="order" color="#F4516C"></l-icon>
+          <span>我的订阅</span>
+        </view>
+        <view class="item-right">
+          <l-icon name="right" size="24"></l-icon>
+        </view>
+      </view>
+      <view class="reservation-item">
+        <view class="item-left">
+          <l-icon name="order" color="#F4516C"></l-icon>
+          <span>我的订阅</span>
+        </view>
+        <view class="item-right">
+          <l-icon name="right" size="24"></l-icon>
+        </view>
+      </view>
+      <view class="reservation-item">
+        <view class="item-left">
+          <l-icon name="order" color="#F4516C"></l-icon>
+          <span>我的订阅</span>
+        </view>
+        <view class="item-right">
+          <l-icon name="right" size="24"></l-icon>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="information1">
+    <view class="reservation">
+      <view class="reservation-item">
+        <view class="item-left">
+          <l-icon name="order" color="#F4516C"></l-icon>
+          <span>我的订阅</span>
+        </view>
+        <view class="item-right">
+          <l-icon name="right" size="24"></l-icon>
+        </view>
+      </view>
+      <view class="reservation-item">
+        <view class="item-left">
+          <l-icon name="order" color="#F4516C"></l-icon>
+          <span>我的订阅</span>
+        </view>
+        <view class="item-right">
+          <l-icon name="right" size="24"></l-icon>
+        </view>
+      </view>
+      <view class="reservation-item">
+        <view class="item-left">
+          <l-icon name="order" color="#F4516C"></l-icon>
+          <span>我的订阅</span>
+        </view>
+        <view class="item-right">
+          <l-icon name="right" size="24"></l-icon>
+        </view>
+      </view>
     </view>
   </view>
 </view>
