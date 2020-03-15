@@ -1,2 +1,191 @@
 <!--pages/detail/detail.wxml-->
-<text>pages/detail/detail.wxml</text>
+<view slot="content" class="container">
+  <view class="swiper-container">
+    <swiper class="swiper"
+            indicator-dots
+            indicator-active-color="#157658"
+            autoplay
+            circular>
+      <swiper-item>
+        <image src="/images/common/1.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/common/2.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/common/3.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/common/4.jpg"></image>
+      </swiper-item>
+    </swiper>
+    <view class="swiper-recommend">
+      <span>202560推荐</span>
+    </view>
+  </view>
+  <view class="house-detail">
+    <view class="house-detail-con">
+      <view class="detail-con-top">
+        <view class="title">
+          <i></i>
+          <span>翡翠龙庭</span>
+        </view>
+        <view class="online-subscription">
+          <l-icon name="order" color="#ffffff" size="30"></l-icon>
+          <span>网上认购</span>
+        </view>
+      </view>
+      <view class="house-label">
+        <span>温泉</span>
+        <span>不限购</span>
+        <span>旅居胜地</span>
+      </view>
+      <view class="house-other-info info">
+        <view class="price">
+          <span class="key">参考价格：</span>
+          <span class="value">均价6400-7500元/㎡</span>
+        </view>
+        <view class="phone">
+          <span class="key">售楼热线：</span>
+          <span class="value">400-0882666</span>
+        </view>
+      </view>
+      <view class="get-phone">
+        <l-icon name="order" color="#b51b14"></l-icon>
+        <span>联系置业顾问</span>
+      </view>
+    </view>
+  </view>
+  <view class="VRshowHouse">
+    <view class="VRshowHouse-con">
+      <view class="title">
+        <i></i>
+        <span>VR看房</span>
+      </view>
+      <image src="/images/detail/13.jpg"></image>
+    </view>
+  </view>
+  <view class="dynamic">
+    <view class="dynamic-con">
+      <view class="dynamic-con-top">
+        <view class="title">
+          <i></i>
+          <span>最新动态</span>
+        </view>
+        <view class="more">
+          <span>更多</span>
+          <l-icon name="right" color="#b51b14" size="20"></l-icon>
+        </view>
+      </view>
+      <view class="dynamic-con-con">
+        家的模样就是，把享受放在阳光上。春日阳光，放眼红花绿树，夜空将临，静看繁星满天。
+      </view>
+    </view>
+  </view>
+  <view class="floorPlan">
+    <view class="floorPlan-con">
+      <view class="title">
+        <i></i>
+        <span>户型图</span>
+      </view>
+      <scroll-view scroll-x class="scroll-view">
+        <view class="inner">
+          <view class="spu-container">
+            <image class="spu-img" src="/images/detail/6.jpg"></image>
+          </view>
+          <view class="spu-container">
+            <image class="spu-img" src="/images/detail/7.jpg"></image>
+          </view>
+          <view class="spu-container">
+            <image class="spu-img" src="/images/detail/8.jpg"></image>
+          </view>
+          <view class="spu-container">
+            <image class="spu-img" src="/images/detail/9.jpg"></image>
+          </view>
+          <view class="spu-container">
+            <image class="spu-img" src="/images/detail/8.jpg"></image>
+          </view>
+          <view class="spu-container">
+            <image class="spu-img" src="/images/detail/11.jpg"></image>
+          </view>
+          <view class="spu-container">
+            <image class="spu-img" src="/images/detail/12.jpg"></image>
+          </view>
+          <view class="spu-container">
+            <image class="spu-img" src="/images/detail/7.jpg"></image>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+  <view class="supporting">
+    <view class="supporting-con">
+      <view class="title">
+        <i></i>
+        <span>周边配套</span>
+      </view>
+      <view class="supporting-con-con">
+        <view class="supporting-item">
+          <view class="supporting-con-top">交通配套：</view>
+          <view class="supporting-con-bottom">
+            【湾区生活】项目位于大湾区西翼猛虎城市-广东江门，于恩平市沈海高速圣堂出口
+          </view>
+        </view>
+        <view class="supporting-item">
+          <view class="supporting-con-top">教育配套：</view>
+          <view class="supporting-con-bottom">
+            【教育生活】项目共规划一所18班小学及四所6班幼儿园。其中双语幼儿园已经进驻
+          </view>
+        </view>
+        <view class="supporting-item">
+          <view class="supporting-con-top">医疗健康：</view>
+          <view class="supporting-con-bottom">
+            【健康生活】市人民医院正式入驻，二甲社区医疗24小时全天候守护，专业团队保驾护航
+          </view>
+        </view>
+        <view class="supporting-item">
+          <view class="supporting-con-top">商业配套：</view>
+          <view class="supporting-con-bottom">
+            【休闲生活】项目商业综合体、风情商业街、美食街全面开业，各地菜品满足业主的需求
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="propertyInfo">
+    <view class="propertyInfo-con">
+      <view class="title">
+        <i></i>
+        <span>楼盘介绍</span>
+      </view>
+      <view class="propertyInfo-con-item">
+        <span class="propertyInfo-label">开盘日期：</span>
+        <span class="propertyInfo-value">2012-12-02</span>
+      </view>
+      <view class="propertyInfo-con-item">
+        <span class="propertyInfo-label">楼盘特色：</span>
+        <span class="propertyInfo-value">4700亩恒大泉都综合旅游度假区，打开全新健康人居生活方式。</span>
+      </view>
+    </view>
+  </view>
+  <view class="detail-bottom">
+    <view class="detail-bottom-left">
+      <view>
+        <l-icon name="phone" color="#b51b14"></l-icon>
+        <span>电话</span>
+      </view>
+      <view>
+        <l-icon name="favor" color="#b51b14"></l-icon>
+        <span>收藏</span>
+      </view>
+      <view>
+        <l-icon name="share" color="#b51b14"></l-icon>
+        <span>分享</span>
+      </view>
+    </view>
+    <view class="detail-bottom-right">
+      <view class="bottom-subscribe">网上认购</view>
+      <view class="bottom-reservation">预约看房</view>
+    </view>
+  </view>
+</view>
