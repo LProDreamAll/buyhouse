@@ -43,7 +43,7 @@ page{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 10rpx;
+  margin: 20rpx;
 }
 .item-left{
   display: flex;

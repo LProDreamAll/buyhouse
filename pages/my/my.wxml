@@ -13,8 +13,8 @@
     <view class="reservation">
       <view class="reservation-item">
         <view class="item-left">
-          <l-icon name="order" color="#F4516C"></l-icon>
-          <span>我的订阅</span>
+          <l-icon name="history" color="#F4516C"></l-icon>
+          <span>我的预约</span>
         </view>
         <view class="item-right">
           <l-icon name="right" size="24"></l-icon>
@@ -23,7 +23,7 @@
       <view class="reservation-item">
         <view class="item-left">
           <l-icon name="order" color="#F4516C"></l-icon>
-          <span>我的订阅</span>
+          <span>我的订单</span>
         </view>
         <view class="item-right">
           <l-icon name="right" size="24"></l-icon>
@@ -31,8 +31,8 @@
       </view>
       <view class="reservation-item">
         <view class="item-left">
-          <l-icon name="order" color="#F4516C"></l-icon>
-          <span>我的订阅</span>
+          <l-icon name="checked" color="#F4516C"></l-icon>
+          <span>认购协议</span>
         </view>
         <view class="item-right">
           <l-icon name="right" size="24"></l-icon>
@@ -44,8 +44,8 @@
     <view class="reservation">
       <view class="reservation-item">
         <view class="item-left">
-          <l-icon name="order" color="#F4516C"></l-icon>
-          <span>我的订阅</span>
+          <l-icon name="like" color="#F4516C"></l-icon>
+          <span>我的收藏</span>
         </view>
         <view class="item-right">
           <l-icon name="right" size="24"></l-icon>
@@ -53,17 +53,8 @@
       </view>
       <view class="reservation-item">
         <view class="item-left">
-          <l-icon name="order" color="#F4516C"></l-icon>
-          <span>我的订阅</span>
-        </view>
-        <view class="item-right">
-          <l-icon name="right" size="24"></l-icon>
-        </view>
-      </view>
-      <view class="reservation-item">
-        <view class="item-left">
-          <l-icon name="order" color="#F4516C"></l-icon>
-          <span>我的订阅</span>
+          <l-icon name="user" color="#F4516C"></l-icon>
+          <span>个人信息</span>
         </view>
         <view class="item-right">
           <l-icon name="right" size="24"></l-icon>
