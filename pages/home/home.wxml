@@ -30,7 +30,7 @@
     <view class="hotProperty">
        <view class="top">热门楼盘</view>
        <view class="item">
-         <view class="hotProperty-item">
+         <view class="hotProperty-item" bind:tap="goItemTap">
            <view class="img">
              <image src="/images/common/1.jpg"></image>
            </view>
@@ -52,7 +52,7 @@
              </view>
            </view>
          </view>
-         <view class="hotProperty-item">
+         <view class="hotProperty-item" bind:tap="goItemTap">
            <view class="img">
              <image src="/images/common/1.jpg"></image>
            </view>
@@ -74,7 +74,7 @@
              </view>
            </view>
          </view>
-         <view class="hotProperty-item">
+         <view class="hotProperty-item" bind:tap="goItemTap">
            <view class="img">
              <image src="/images/common/1.jpg"></image>
            </view>
@@ -96,7 +96,7 @@
              </view>
            </view>
          </view>
-         <view class="hotProperty-item">
+         <view class="hotProperty-item" bind:tap="goItemTap">
            <view class="img">
              <image src="/images/common/1.jpg"></image>
            </view>
@@ -118,7 +118,7 @@
              </view>
            </view>
          </view>
-         <view class="hotProperty-item">
+         <view class="hotProperty-item" bind:tap="goItemTap">
            <view class="img">
              <image src="/images/common/1.jpg"></image>
            </view>
@@ -140,7 +140,7 @@
              </view>
            </view>
          </view>
-         <view class="hotProperty-item">
+         <view class="hotProperty-item" bind:tap="goItemTap">
            <view class="img">
              <image src="/images/common/1.jpg"></image>
            </view>
@@ -162,7 +162,7 @@
              </view>
            </view>
          </view>
-         <view class="hotProperty-item">
+         <view class="hotProperty-item" bind:tap="goItemTap">
            <view class="img">
              <image src="/images/common/1.jpg"></image>
            </view>
@@ -184,7 +184,7 @@
              </view>
            </view>
          </view>
-         <view class="hotProperty-item">
+         <view class="hotProperty-item" bind:tap="goItemTap">
            <view class="img">
              <image src="/images/common/1.jpg"></image>
            </view>
@@ -206,7 +206,7 @@
              </view>
            </view>
          </view>
-         <view class="hotProperty-item">
+         <view class="hotProperty-item" bind:tap="goItemTap">
            <view class="img">
              <image src="/images/common/1.jpg"></image>
            </view>
@@ -228,7 +228,7 @@
              </view>
            </view>
          </view>
-         <view class="hotProperty-item">
+         <view class="hotProperty-item" bind:tap="goItemTap">
            <view class="img">
              <image src="/images/common/1.jpg"></image>
            </view>
@@ -250,7 +250,7 @@
              </view>
            </view>
          </view>
-         <view class="hotProperty-item">
+         <view class="hotProperty-item" bind:tap="goItemTap">
            <view class="img">
              <image src="/images/common/1.jpg"></image>
            </view>
